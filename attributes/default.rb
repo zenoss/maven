@@ -22,6 +22,7 @@
 
 default['maven']['version'] = 2
 default['maven']['m2_home'] = '/usr/local/maven'
+default['maven']['repository_root'] = '/usr/local'
 default['maven']['2']['url'] = "http://apache.mirrors.tds.net/maven/maven-2/2.2.1/binaries/apache-maven-2.2.1-bin.tar.gz"
 default['maven']['2']['checksum'] = "b9a36559486a862abfc7fb2064fd1429f20333caae95ac51215d06d72c02d376"
 default['maven']['2']['plugin_version'] = "2.4"
